@@ -109,7 +109,7 @@ Create a additional users and attempt to log into client-1 with one of the users
 
 <img src="https://imgur.com/5NaX2OU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h2 align="center"> <br>Active Directory is now deployed and 10,0000 users have been created with a PowerShell script 🗄️  </h2>
+<h2 align="center"> <br>Active Directory is now deployed with 10,0000 users created with a PowerShell script 🗄️  </h2>
 
 
 
