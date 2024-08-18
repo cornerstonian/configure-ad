@@ -6,6 +6,11 @@
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 Outline of implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
+<h2> What is Active Directory (AD)? </h2>
+Active Directory (AD) is a Microsoft service for managing users, computers, and resources in a network. It centralizes security and administrative tasks, provides authentication and authorization, and organizes data into domains and organizational units. AD ensures data consistency and easy resource management across the network.
+<br>
+<br/>
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
