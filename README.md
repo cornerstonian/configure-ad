@@ -30,7 +30,7 @@ Outline of implementation of on-premises Active Directory within Azure Virtual M
 - Step 4: Create an Admin and Normal User Account in AD
 - Step 5: Join Client-1 to the domain (mydomain.com)
 - Step 6: Setup Remote Desktop for non-administrative users on Client-1
-- Step 7: Create a bunch of additional users and attempt to log into client-1 with one of the users
+- Step 7: Create 10,000 users with Powershell ISE and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -101,14 +101,15 @@ Setup Remote Desktop for non-administrative users on Client-1
 Create a additional users and attempt to log into client-1 with one of the users
 - Login to DC-1 as jane_admin
 - Open PowerShell_ise as an administrator
-- Create a new File and paste the contents of the script into it (ADD POWERSHELL SCRIPT)
+- Create a new File and paste the contents of the script into it
+  - (https://github.com/cornerstonian/configure-ad/blob/main/generate-names-create-users.ps1))
 - Run the script and observe the accounts being created
 - When finished, open ADUC and observe the accounts in the appropriate OU
 - attempt to log into Client-1 with one of the accounts (take note of the password in the script -- "Password1")
 
 <img src="https://imgur.com/5NaX2OU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h2 align="center"> <br>Active Directory is now deployed and users have been created with a PowerShell script 🗄️  </h2>
+<h2 align="center"> <br>Active Directory is now deployed and 10,0000 users have been created with a PowerShell script 🗄️  </h2>
 
 
 
